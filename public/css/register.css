@@ -1,12 +1,12 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     background-color: black;
 }
 
 /* HEADER */
-
 
 .caja-verde{
     width: auto;
@@ -90,83 +90,4 @@ p{
     flex-direction: column;
     align-items: center;
     margin-right: 20px
-}
-
-/* FORMULARIO LOGIN */
-
-.titulo{
-    display: flex;
-    justify-content: center;
-}
-h1{
-    font-size: 50px;
-    color: white;
-    font-family: 'VT323', monospace;
-    text-align: center;
-    margin-top: 100px;
-    border: 3px dashed white;
-    border-radius: 20px;
-    width: 400px;
-    height: 85px;
-    padding-top: 10px;
-}
-.container{
-    display: flex;
-    justify-content: center;
-}
-.caja-formulario{
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(#55b53f,#21e765);
-    font-family: 'VT323', monospace;
-    height: 800px;
-    width: 650px;
-    border-radius: 20px;
-}
-.caja-formulario h2{
-    font-size: 50px;
-    text-align: center;
-}
-a{
-    text-align: center;
-    margin-top: 30px;
-    font-family: 'VT323', monospace;
-    color: black;
-    font-size: 25px;
-}
-.caja-formulario p{
-    text-align: center;
-    font-size: 40px;
-}
-.caja-email{
-    display: flex;
-    justify-content: center;
-}
-.caja-password{
-    display: flex;
-    justify-content: center;
-}
-input{
-    text-align: center;
-    width: 60%;
-    height: 50px;
-    border-radius: 20px;
-    border: none;
-    font-family: 'VT323', monospace;
-    font-size: 30px;    
-}
-.caja-botones{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-button{
-    font-family: 'VT323', monospace;
-    margin-top: 35px;
-    width: 30%;
-    height: 50px;
-    text-align: center;
-    font-size: 25px ;
-    border-radius: 15px;
-    border: none;
 }

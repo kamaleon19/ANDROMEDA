@@ -7,7 +7,6 @@ const indexController= require('../controllers/indexController')
 // Routes
 
 router.get('/', indexController.home)
-router.get('/login', indexController.login)
 
 
 

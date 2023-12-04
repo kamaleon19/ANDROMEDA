@@ -12,9 +12,8 @@ app.use(express.static('public'));
 // Routes
 const indexRoutes = require('./routes/indexRoutes')
 app.use('/',indexRoutes)
-
-const pruebaRoutes = require('./routes/prueba')
-app.use('/prueba', pruebaRoutes)
+const userRoutes = require('./routes/userRoutes')
+app.use(userRoutes)
 // Server
 
 
