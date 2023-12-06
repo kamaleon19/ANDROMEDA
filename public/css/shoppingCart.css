@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/* HEADER */
+.caja-verde{
+    width: auto;
+    display: flex;
+    background: linear-gradient(#55b53f,#21e765);
+    border-radius: 20px;
+}
+.logo{
+    margin-top: 8px;
+    margin-left: 36%;
+    height: 125px;
+    border-radius: 200px;
+}
+.nombre{
+    margin-left: 15px;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+}
+.icono{
+    width: 50px;
+    height: 50px;
+}
+.login-carrito{
+    display: flex;
+    margin-top: 25px;
+    margin-left: auto;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+.carrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px
+}
+p{
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+}
+.caja-logo{
+    text-align: center;
+}
+.lupa{
+    height: 30px;
+}
+.buscador{
+    background-color: black;
+    border: white solid 1px;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    margin-left: 35px;
+    margin-top: 15px
+}
+.barra-navegacion{
+    display: flex;
+}
+.navegacion{
+    border: 1px white solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin-top: 15px;
+}
+.caja-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+.caja-carrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px
+}
+h1{
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.linea{
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 35px;
+    margin-top: 80px;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 35px;
+    margin-top: 120px;
+}
+.container-boton{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #21e765;
+    border: none;
+    border-radius: 15px;
+    font-family: 'VT323', monospace;
+    width: 180px;
+    height: 60px;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+/* FOOTER */
+.caja-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto p{
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    margin-left: 25px;
+}
+.redes img{
+    width:60px;
+    height:60px ;
+}
+.redes p{
+    color: white;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+}
+.suscripcion p{
+    color: white;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+}
+.suscripcion input{
+    font-family: 'VT323', monospace;
+    width: 350px;
+    height: 35px;
+    font-size: 30px;
+}

@@ -1,6 +1,9 @@
 const productController={
-    detail: (req,res)=>{
+    detail: (req,res) => {
         res.render('productDetail')
+    },
+    shoppingCart: (req,res) => {
+        res.render('shoppingCart')
     }
 }
 
