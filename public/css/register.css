@@ -91,3 +91,59 @@ p{
     align-items: center;
     margin-right: 20px
 }
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+/* FORMULARIO REGISTER */
+
+h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    margin-top: 100px;
+    border: 3px dashed white;
+    border-radius: 20px;
+    width: 400px;
+    height: 85px;
+    padding-top: 10px;
+}
+.container-padre{
+    display: flex;
+    justify-content: center;
+}
+.caja-formulario{
+    justify-content: space-around;
+    display: flex;
+    background: linear-gradient(#55b53f,#21e765);
+    width: 55%;
+    height: 800px;
+    font-family: 'VT323', monospace;
+    border-radius: 20px;
+}
+.caja-formulario h2{
+    font-size: 45px;
+}
+.caja-formulario input{
+    width: 250px;
+    height: 45px;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.caja-datos2  p{
+    font-size: 30px;
+    margin-top: 40%;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}

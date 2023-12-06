@@ -14,6 +14,8 @@ const indexRoutes = require('./routes/indexRoutes')
 app.use('/',indexRoutes)
 const userRoutes = require('./routes/userRoutes')
 app.use(userRoutes)
+const productDetail = require('./routes/productRoutes')
+app.use(productDetail)
 // Server
 
 

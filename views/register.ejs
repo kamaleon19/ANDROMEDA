@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/register.css">
-    <title>Document</title>
+    <title>ANDROMEDA</title>
 </head>
 <body>
     <%- include('./partials/header') %>
+    <div class="titulo">
+        <h1>INICIAR SESION</h1>
+    </div>
+    <form action="">
+       <div class="container-padre">
+        <div class="caja-formulario">
+            <div class="caja-datos1">
+                <h2>NOMBRE Y APELLIDO</h2>
+                <input type="text" placeholder="Martin Garcia">
+                <h2>EMAIL</h2>
+                <input type="email" placeholder="ALGUIEN@EXAMPLE.COM">
+                <h2>CONTRASEÑA</h2>
+                <input type="password" placeholder="**********">
+                <h2>REPETIR CONTRASEÑA</h2>
+                <input type="password" placeholder="**********">
+            </div>
+
+
+            <div class="caja-datos2">
+                <h2>DIRECCION DE ENVIO</h2>
+                <input type="text" placeholder="Belgrano 816">
+                <h2>TELEFONO</h2>
+                <input type="number" placeholder="3886821175">
+                <p>Deseo recibir ofertas y comunicaciones por email</p>
+                <div class="botones">
+                    <button>REINICIAR</button>
+                    <button>CONFIRMAR</button>
+                </div>
+            </div>
+        </div>
+       </div>
+    </form>
 </body>
 </html>

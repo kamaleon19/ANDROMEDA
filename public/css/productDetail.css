@@ -1,13 +1,14 @@
+
 *{
     box-sizing: border-box;
 }
+
 body{
     background-color: black;
 }
 
+
 /* HEADER */
-
-
 .caja-verde{
     width: auto;
     display: flex;
@@ -91,82 +92,93 @@ p{
     align-items: center;
     margin-right: 20px
 }
-
-/* FORMULARIO LOGIN */
-
-.titulo{
-    display: flex;
-    justify-content: center;
-}
 h1{
-    font-size: 50px;
     color: white;
     font-family: 'VT323', monospace;
-    text-align: center;
-    margin-top: 100px;
-    border: 3px dashed white;
-    border-radius: 20px;
-    width: 400px;
-    height: 85px;
-    padding-top: 10px;
-}
-.container{
-    display: flex;
-    justify-content: center;
-}
-.caja-formulario{
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(#55b53f,#21e765);
-    font-family: 'VT323', monospace;
-    height: 800px;
-    width: 650px;
-    border-radius: 20px;
-}
-.caja-formulario h2{
     font-size: 50px;
-    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 150px;
 }
-a{
-    text-align: center;
-    margin-top: 30px;
-    font-family: 'VT323', monospace;
-    color: black;
-    font-size: 25px;
-}
-.caja-formulario p{
-    text-align: center;
-    font-size: 40px;
-}
-.caja-email{
+
+.container-padre{
     display: flex;
-    justify-content: center;
 }
-.caja-password{
+
+.caja-datosProducto{
+    margin-left: 10%;
     display: flex;
-    justify-content: center;
-}
-input{
-    text-align: center;
-    width: 60%;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    font-family: 'VT323', monospace;
-    font-size: 30px;    
-}
-.caja-botones{
-    display: flex;
-    align-items: center;
     flex-direction: column;
+}
+
+h2{
+    color: white;
+    font-family: 'VT323', monospace;
+    margin-top: 50px;
+    font-size: 35px;
 }
 button{
+    margin-top: 25px;
     font-family: 'VT323', monospace;
-    margin-top: 35px;
-    width: 30%;
-    height: 50px;
-    text-align: center;
-    font-size: 25px ;
-    border-radius: 15px;
+    background-color: #21e765;
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 20px;
     border: none;
+}
+.linea{
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 35px;
+}
+.titulo-descripcion{
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 45px;
+    margin-left: 50px;
+}
+.descipcion{
+    color: white;
+    font-size: 25px;
+    font-family: 'VT323', monospace;
+    border: dashed 5px #21e765 ;
+    width: 600px;
+    height: 200px;
+    margin-left: 60px;
+    padding: 15px;
+
+}
+
+/* FOOTER */
+
+.caja-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto p{
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    margin-left: 25px;
+}
+.redes img{
+    width:60px;
+    height:60px ;
+}
+.redes p{
+    color: white;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+}
+.suscripcion p{
+    color: white;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+}
+.suscripcion input{
+    font-family: 'VT323', monospace;
+    width: 350px;
+    height: 35px;
+    font-size: 30px;
 }
