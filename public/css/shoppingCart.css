@@ -156,3 +156,67 @@ button{
     height: 35px;
     font-size: 30px;
 }
+
+
+
+@media (max-width:460px){    
+
+
+    /* HEADER */
+
+
+    .nombre{
+        display: none;
+    }
+
+    .caja-verde{
+        width: 100vw;
+    }
+    .logo{
+        margin-left: -2px;
+        width: 100px;
+        height: 100px;
+    }
+    .icono{
+        width: 40px;
+        height: 40px;
+    }
+    .login p{
+        font-size: 15px;
+    }
+    .carrito p{
+        font-size: 15px;
+    }
+
+    .navegacion{
+        padding: 2px;
+    }
+
+    .linea{
+        color: black;
+        font-size: 20px;
+    }
+
+
+
+    /* FOOTER */
+
+
+    .redes{
+        display: none;
+    }
+
+    .suscripcion{
+        display: none;
+
+    }
+
+    .contacto p{
+        text-align: center;
+    }
+    .caja-footer{
+        border-top: 3px solid white
+    }
+
+
+}    

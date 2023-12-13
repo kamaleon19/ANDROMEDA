@@ -355,6 +355,10 @@ h2{
 
 @media (max-width:460px){    
 
+
+    /* HEADER */
+
+
     .nombre{
         display: none;
     }
@@ -382,6 +386,8 @@ h2{
         padding: 2px;
     }
 
+
+    
     .caja-combos{
         flex-direction: column;
         align-items: center;
@@ -394,6 +400,10 @@ h2{
     .linea{
         display: none;
     }
+
+
+    /* FOOTER */
+
 
     .redes{
         display: none;
@@ -410,4 +420,6 @@ h2{
     .caja-footer{
         border-top: 3px solid white
     }
+
+
 }    
